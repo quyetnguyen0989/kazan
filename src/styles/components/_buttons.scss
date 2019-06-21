@@ -1,0 +1,27 @@
+.button {
+  border-radius: 5px;
+  text-transform: uppercase;
+  padding: 12px 30px;
+
+  &--nav {
+    // border: 2px solid rgba(255, 255, 255, .2);
+    font-size: 12px;
+    background-image: linear-gradient(to right, $curciousBlue, #3780b6, #366992, #325370, $pickledBluewood);
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 9px 47px 0 rgba($curciousBlue, .31);
+  }
+
+  &--primary {
+    font-size: 12px;
+    background-image: linear-gradient(to right, $curciousBlue, #3780b6, #366992, #325370, $pickledBluewood);
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 9px 47px 0 rgba($curciousBlue, .31);
+  }
+
+  &--section {
+    margin-top: 34px;
+    padding: 20px 36px;
+  }
+}
