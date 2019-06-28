@@ -1,0 +1,27 @@
+# Cài đặt Kazan
+
+Việc cài đặt Kazan gồm 3 bước
+
+### Bước 1: Tải phần mềm từ website
+
+- Chọn đúng version cho phiên bản windows 32 hay windows 64
+- Lựa chọn phầm mềm cho Metatrader 4 hoặc Metatrader 5
+
+### Bước 2: Chạy phần mềm
+
+Di chuột tới phần mềm vừa tải về và Click chuột phải chọn **Run as administrator** để chạy phần mềm với quyền administrator  
+  
+![run as admin](https://i.imgur.com/5ZlZTnY.png)
+
+### Bước 3: Chọn phần mềm Metatrader và nhấn "Install"
+
+![Choose mt4](https://i.imgur.com/1awwyc3.png)
+
+**Note:** Nếu metatrader bạn muốn cài đặt không thể tìm thấy. Bạn có thể điền đường dẫn muốn cài đặt vào 2 ô phía bên dưới và nhấn install  
+Sau khi có thông báo cài đặt hoàn thành bạn có thể tới bước tiếp theo để tiến hành sử dụng kazan ở metatrader4
+
+<style>
+img {
+	max-width: 600px;
+}
+</style>

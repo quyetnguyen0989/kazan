@@ -1,0 +1,48 @@
+<fieldset>
+<legend>
+Về chúng tôi
+</legend>
+
+Bắt đầu tham gia thị trường với xuất phát điểm là một lập trình viên. Nên khi bắt đầu đội ngũ phát triển kazan đã có một góc nhìn rất khác về những robot mà các trader đang sử dụng.
+
+Tới cuối năm 2016, khi đã có nhiều năm kinh nghiệm giao dịch và code nhiều robot trên nhiều nền tảng khác nhau như Metatrader, Ami-broker, Tradingview, ThinkOrSwim, Interactive Brokers.... chung tôi nhận thấy rằng "phương pháp giao dịch chỉ ảnh hưởng tới 10% kết quả giao dịch", nhưng hầu hết các robot đều tập trung vào 10% này. Thay đổi về góc nhìn, chúng tôi nhìn lại những thứ gây ra tâm lý giao dịch cho mình và tìm cách tự động hóa và cải tiến nó.
+
+</fieldset>
+<br/>
+<br/>
+<br/>
+<fieldset>
+<legend>
+Chúng tôi đang sử dụng Kazan
+</legend>
+
+Sau nhiều năm phát triển và sử dụng trên chính việc giao dịch của mình, tới 2018 chung tôi cũng đã đưa ra version đầu tiên của kazan và thấy rất an lành, bình yên khi giao dịch. Hiện nay chúng tôi vẫn đang tiếp tục sử dụng kazan như một phần quan trong trong việc giao dịch.
+
+Chúng tôi hiểu những khó khăn của trader khi mới bắt đầu với thị trường, kể cả những khó khăn về mặt tài chính, chính vì vậy chúng tôi muốn kazan có thể giúp đỡ được các trader trong thời điểm ban đầu, nên hoàn toàn chưa có ý định thương mai hóa kazan hay thu phí kazan trong thời gian gần.
+
+_"Tôi cần dùng kazan, nó tốt, tôi phát triển và chia sẻ nó cho các bạn cùng dùng"_
+
+Đây vẫn là quan điểm phát triển kazan của tôi cho đến ngày hôm nay. Nếu các bạn cảm thấy kazan hữu ích cho việc giao dịch của mình và muốn hỗ trợ cho chúng tôi cũng như cộng đồng sử dụng kazan, bạn có thể donate cho chúng tôi theo địa chỉ dưới đây hoặc liên hệ trực tiếp. Số tiền này sẽ được chúng tôi sử dụng để duy trì server và phát triển những tính năng mới. Chúng tôi xin chân thành cảm ơn
+
+### Netteler:
+
+Account Email: daotronglinh161@gmail.com
+
+Account ID: 454225769228
+
+</fieldset>
+
+<style lang="scss">
+    fieldset {
+        padding: 16px;
+        border: 2px solid #3498DB;
+        border-radius: 8px;
+        legend {
+            font-weight: bold;
+            color: black;
+            margin-left: 16px;
+            padding: 0 10px;
+            font-size: 24px;
+        }
+    }
+</style>

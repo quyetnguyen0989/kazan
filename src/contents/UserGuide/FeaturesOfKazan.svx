@@ -1,0 +1,76 @@
+# Tính năng của Kazan
+
+### Tương tác - phím ">|<"
+
+Mục đích: Trao đổi phân tích với những user ở trong nhóm.
+
+PUSH: Gửi nhưng phân tích từ chart của mình lên group. Khi gửi thành công mọi người trên group đều sẽ được thông báo qua telegram
+
+GET: Lấy phân tích của người cuối cùng của mã đó trên group.
+
+### Vào lệnh- phím "<|>"
+
+Mục đích: Vào lệnh và quản trị vốn một cách tối ưu
+
+PD: Sử dụng để chuyển chế độ vào lệnh
+
+- PD: Pending order
+- MK: Market order
+- S-L: Stop limmit order
+
+BUY: Nhấn để vào lệnh buy
+
+SELL: Nhấn để vào lệnh sell
+
+- By% Số tiền risk tính theo %
+- By\$ Số tiền risk tính theo số lượng tiền chính xác
+
+### Scale fix - phím tắt CTR+Q
+
+Đóng mở chế độ scale fix. Tính năng hỗ trợ cho việc phân tích, xem chart ở góc nhìn rộng hơn
+
+### Show version - phím tắt CTR+1
+
+Thu gọn kazan khi phân tích
+
+### Alert - phím tắt CTR+2
+
+Giúp trader theo dõi tín hiêu.
+
+- 2 chế độ theo dõi( chạm vào đường giá, đường trend và alert theo thời gian cố định)
+- 2 cách alert( alert bằng âm thanh và alert qua telegram)
+
+### Show list group - phím tắt CTR+3
+
+Sử dụng khi muốn thông báo cho nhiều group cùng lúc.
+
+### Review lệnh - phím tắt CTR+4
+
+Việc review lệnh hàng tuần, hàng tháng là hết sức quan trọng.  
+Kazan giúp bạn review một cách thuận tiện hơn
+
+### Kazan - phím tắt CTR+5
+
+Giúp refesh kazan khi không load kịp.
+
+### Move SL về entry - phím tắt CTR+6
+
+Move stoploss về entry. (Tính năng này mặc định ở khi cài đặt luôn ở chế độ tắt)
+
+### Đóng lệnh theo thời gian - phím tắt CTR+7
+
+Kẻ một đường dọc (Vertical Line), khi giá chạy tới đường này, kazan sẽ tự động đóng hết các lệnh
+
+### Đóng lệnh theo MA- phím tắt CTR+8
+
+Tôi ưu hóa lợi nhuận bằng cách chốt lời bằng đường trend động. Khi giá đóng cửa qua đường MA được set sẵn, kazan sẽ tự động đóng lệnh.
+
+### Đóng lệnh trend & line- phím tắt CTR+9
+
+Tôi ưu hóa lợi nhuận bằng cách chốt lời bằng đường trend, line(horizontal line) kẻ sẵn. Khi giá đóng cửa qua đường MA được set sẵn, kazan sẽ tự động đóng lệnh.
+
+Nếu lo lắng về việc bị quét sl, các bạn có thể dùng cách này thay việc đặt stoploss.
+
+### Đóng lệnh từng phần- phím tắt CTR+0
+
+Đóng lệnh từng phần, có thể lựa chọn move sl về entry khi đóng 1 phần

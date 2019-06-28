@@ -1,11 +1,11 @@
 <script>
-
+  import { link, Link } from "svelte-routing";
 </script>
 
 <style lang="scss">
   header {
     width: 100%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 74px;
@@ -13,7 +13,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 48px;
-    background: $white;
+    background: transparent;
     z-index: 1000;
   }
   .left {
@@ -66,6 +66,14 @@
         &:hover {
           opacity: 1;
         }
+
+        a {
+          text-decoration: none;
+
+          &:visited {
+            color: $paleSky;
+          }
+        }
       }
     }
   }
@@ -79,16 +87,19 @@
       font-weight: 600;
       font-size: 12px;
       text-transform: uppercase;
+      color: $white;
     }
   }
 </style>
 
 <header>
   <div class="left">
-    <div class="logo">
-      <img src="/images/logo.png" alt="Logo" />
-      <span>Kazan</span>
-    </div>
+    <Link to="/">
+      <div class="logo">
+        <img src="/images/logo.png" alt="Logo" />
+        <span>Kazan</span>
+      </div>
+    </Link>
     <div class="separator" />
     <nav>
       <ul class="nav-links">
@@ -99,14 +110,16 @@
           <a>About Us</a>
         </li>
         <li>
-          <a>User Guide</a>
+          <a href="user-guide/download-and-install" use:link>User Guide</a>
         </li>
       </ul>
     </nav>
   </div>
   <div class="right">
     <div class="user">
-      <button class="button button--nav">Login</button>
+      <a href="https://portal.kazantrading.com " class="button button--nav">
+        Login
+      </a>
       <a>Register</a>
     </div>
   </div>

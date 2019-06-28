@@ -1,0 +1,35 @@
+# Add Kazan vào MT4
+
+Sau khi cài đặt xong ở bước 1, bạn có thể bắt đầu add kazan vào mt4 để sử dụng.
+
+Việc add kazan vào sử dụng gồm 3 bước:
+
+### Bước 1: Add kazan vào chart
+
+![Attach to chart](https://i.imgur.com/KeAEGLC.png)
+
+**Note:** Sau khi cài đặt xong nếu không thấy kazan ở thư mục Expert, bạn có thể chọn refresh để update lại thư mục Expert.
+
+### Bước 2: Chỉnh config
+
+Để kazan có thể gọi ra bên ngoài cho tính năng tương tác và alert, bạn cần cho phép việc này.
+
+Chọn "Tool" ==> "Option" ==> "Expert Adviser" ==> Chọn allow webrequest và add những links sau:
+
+![Allow web request](https://i.imgur.com/M8qafR5.png)
+
+http://api.kazantrading.com
+
+### Bước 3: Điền thông tin cá nhân đã đăng ký
+
+"Click chuột phải" ==> Chọn "Expert Adviser" ==> Chọn "Properties"
+
+( Bạn có thể sử dụng phím tắt **F7** để mở phần này)
+
+![Add email](https://i.imgur.com/0k5WtAo.png)
+
+Chọn Ở tab "Input", điền những thông tin cần sử dụng để config
+
+- Điền email và MT4 password mà bạn đã đăng ký.
+
+- Điền group mà bạn muốn tương tác

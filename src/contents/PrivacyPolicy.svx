@@ -1,0 +1,19 @@
+# Chính sách bảo mật
+
+Chính sách bảo mật này giải thích cách mà Kazan thu thập, sử dụng, chia sẻ và bảo vệ thông tin người dùng thu được thông qua ứng dụng kazan và trang web kazantrading.com
+
+### Thông tin đăng ký
+
+Khi bạn tạo Tài khoản trên kazantrading, bạn cung cấp cho chúng tôi thông tin cá nhân bao gồm thông tin liên hệ của bạn (số điện thoại, telegram, email). Những thông tin này giúp chúng tôi xác thực thông tin và tạo tài khoản cho bạn.
+
+### Thông tin sử dụng dịch vụ
+
+Thông qua việc sử dụng kazantrading, chúng tôi lưu trữ dự liệu sử dụng dịch của bạn. Việc lưu trữ này chỉ nhằm đảm bảo được việc tối ưu hóa hiệu suất truy cập của bạn tới kazan.
+
+### Thông tin giao dịch
+
+Nếu bạn có nhu cầu tổng hợp, đưa ra báo cáo, bạn có thể gửi chúng tôi dự liệu giao dịch. Việc gửi dữ liệu giao dịch này sẽ được hỏi ý kiến của bạn cho từng lần yêu cầu.
+
+### Chuẩn lưu trữ và bảo mật
+
+Tất cả thông tin của bạn đều được lưu trữ trên các dịch vụ của google và sử dụng các tiêu chuẩn bảo mật của google như google firebase và google clound.

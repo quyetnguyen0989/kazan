@@ -1,3 +1,7 @@
+<script>
+
+</script>
+
 <style lang="scss">
   section {
     background: #f7fbfe;
@@ -76,36 +80,37 @@
 </style>
 
 <section>
-  <h1>Testimonial</h1>
+  <h1>Trader nói gì về chúng tôi</h1>
   <div class="quotes">
     <div class="quote">
       <blockquote>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Elit sed vulputate
-        mi sit amet mauris commodo quis. Erat nam at lectus urna duis.
+        Tôi rất thích con Kazan. Nó giúp tôi tiết kiệm thời gian và tránh sai
+        sót khi đặt lệnh. Sử dụng và quản lý vốn dễ dàng. Kazan có tính năng
+        cảnh báo những tin tức quan trọng trong ngày giúp tôi tiết kiệm thời
+        gian trong trading.
       </blockquote>
       <div class="quote__customer">
-        <img
-          src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" />
+        <img src="/testimonials/TrangPham.jpg" />
         <div class="title">
-          <b>Han Trong Binh</b>
-          <span>Front-end Developer</span>
+          <b>Trang Pham</b>
+          <span>Trader, Nội trợ</span>
         </div>
       </div>
     </div>
     <div class="quote">
       <blockquote>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Mauris sit amet
-        massa vitae tortor condimentum lacinia quis. Ultricies tristique nulla
-        aliquet enim tortor.
+        Hiện nay tôi và đội nhóm của mình đang sử dụng Kazan. Kazan rất thuận
+        tiện trong việc trao đổi với các thành viên khác. Trước đây chúng tôi
+        phải share ảnh lên group và khi muốn sửa hoặc góp ý gì về phân tích,
+        chúng tôi phải vẽ lại hoặc sử dụng phần mềm sửa ảnh. Nhưng với kazan
+        chúng tôi chỉ cần "PUSH" và "GET". Đây là phần mềm rất tiện dụng cho
+        việc trading.
       </blockquote>
       <div class="quote__customer">
-        <img
-          src="http://baogialai.com.vn/dataimages/201805/original/images2653011_h_7.jpg" />
+        <img src="/testimonials/HuyDo.jpg" />
         <div class="title">
-          <b>Nguyen Ngoc Phuong Vy</b>
-          <span>Student</span>
+          <b>Huy Do</b>
+          <span>Trader, Chuyên viên Oracle</span>
         </div>
       </div>
     </div>

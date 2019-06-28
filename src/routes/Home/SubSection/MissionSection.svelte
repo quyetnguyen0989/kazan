@@ -1,19 +1,19 @@
 <script>
   const missions = [
     {
-      img: "",
+      img: "trading-psychology.svg",
       title: "Protect balance",
       description:
         "Eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis."
     },
     {
-      img: "",
+      img: "money-manager.svg",
       title: "Money manager",
       description:
         "Turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris"
     },
     {
-      img: "",
+      img: "protect-balance.svg",
       title: "Trading psychology",
       description:
         "Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in"
@@ -24,7 +24,7 @@
 <style lang="scss">
   section {
     text-align: center;
-    padding: 50px 0;
+    padding: 50px 200px;
   }
 
   h1 {
@@ -56,9 +56,9 @@
       padding-bottom: 10px;
 
       img {
-        padding: 25px;
-        height: 100px;
-        width: 100px;
+        padding: 20px;
+        height: 125px;
+        width: 125px;
         border-radius: 50%;
         border: 1px solid rgba($paleSky, 0.3);
       }
@@ -88,7 +88,7 @@
     {#each missions as mission}
       <div class="mission">
         <div class="mission__image">
-          <img src="" />
+          <img src={`/images/${mission.img}`} />
         </div>
         <div class="mission__content">
           <h3> {mission.title} </h3>

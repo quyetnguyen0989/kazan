@@ -7,7 +7,7 @@
 
 <style lang="scss">
   .sub-sections {
-    padding: 0 200px;
+    padding: 0 0;
   }
   hr {
     border: 0.5px solid $aquamarineBlue;

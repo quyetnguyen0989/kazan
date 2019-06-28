@@ -341,7 +341,7 @@ chalk@^1.1.1:
     strip-ansi "^3.0.0"
     supports-color "^2.0.0"
 
-chalk@^2.0.0, chalk@^2.4.1:
+chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
   resolved "https://registry.yarnpkg.com/chalk/-/chalk-2.4.2.tgz#cd42541677a54333cf541a49108c1432b44c9424"
   integrity sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==
@@ -583,6 +583,11 @@ ecc-jsbn@~0.1.1:
   dependencies:
     jsbn "~0.1.0"
     safer-buffer "^2.1.0"
+
+entities@~1.1.1:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/entities/-/entities-1.1.2.tgz#bdfa735299664dfafd34529ed4f8522a275fea56"
+  integrity sha512-f2LZMYl1Fzu7YSBKg+RoROelpOaNrcGmE9AZubeDfrCEia483oW4MI4VyFd5VNHIgQ/7qm1I0wUHK1eJnn2y2w==
 
 error-ex@^1.2.0, error-ex@^1.3.1:
   version "1.3.2"
@@ -1323,6 +1328,13 @@ lcid@^1.0.0:
   dependencies:
     invert-kv "^1.0.0"
 
+linkify-it@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/linkify-it/-/linkify-it-2.1.0.tgz#c4caf38a6cd7ac2212ef3c7d2bde30a91561f9db"
+  integrity sha512-4REs8/062kV2DSHxNfq5183zrqXMl7WP0WzABH9IeJI+NLm429FgE1PDecltYfnOoFDFlZGh2T8PfZn0r+GTRg==
+  dependencies:
+    uc.micro "^1.0.1"
+
 livereload@^0.8.0:
   version "0.8.0"
   resolved "https://registry.yarnpkg.com/livereload/-/livereload-0.8.0.tgz#9af99cf8a262152cf7176b320accfc5d2ae4f8bf"
@@ -1402,6 +1414,29 @@ map-visit@^1.0.0:
   integrity sha1-7Nyo8TFE5mDxtb1B8S80edmN+48=
   dependencies:
     object-visit "^1.0.0"
+
+markdown-it@^8.4.2:
+  version "8.4.2"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.4.2.tgz#386f98998dc15a37722aa7722084f4020bdd9b54"
+  integrity sha512-GcRz3AWTqSUphY3vsUqQSFMbgR38a4Lh3GWlHRh/7MRwz8mcu9n2IO7HOh+bXHrR9kOPDl5RNCaEsrneb+xhHQ==
+  dependencies:
+    argparse "^1.0.7"
+    entities "~1.1.1"
+    linkify-it "^2.0.0"
+    mdurl "^1.0.1"
+    uc.micro "^1.0.5"
+
+mdsvex@^0.3.0:
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/mdsvex/-/mdsvex-0.3.0.tgz#773103cf51087a0b31ad96fcb370794b626113a3"
+  integrity sha512-Cs3tKoqG/CrAB/iWUtG3/RjNXo9Z6sYKs5bEKntAr2RfiCs6sA95p1NWdGE7MCY4byA3WSpUYSYpV/io9f6AbQ==
+  dependencies:
+    punycode "^2.1.1"
+
+mdurl@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/mdurl/-/mdurl-1.0.1.tgz#fe85b2ec75a59037f2adfec100fd6c601761152e"
+  integrity sha1-/oWy7HWlkDfyrf7BAP1sYBdhFS4=
 
 memorystream@^0.3.1:
   version "0.3.1"
@@ -1890,6 +1925,15 @@ postcss-load-config@^2.0.0:
     cosmiconfig "^5.0.0"
     import-cwd "^2.0.0"
 
+postcss@^7.0.17:
+  version "7.0.17"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-7.0.17.tgz#4da1bdff5322d4a0acaab4d87f3e782436bad31f"
+  integrity sha512-546ZowA+KZ3OasvQZHsbuEpysvwTZNGJv9EfyCQdsIDltPSWHAeTQ5fQy/Npi2ZDtLI3zs7Ps/p6wThErhm9fQ==
+  dependencies:
+    chalk "^2.4.2"
+    source-map "^0.6.1"
+    supports-color "^6.1.0"
+
 process-nextick-args@~2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
@@ -1910,7 +1954,7 @@ punycode@^1.4.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-1.4.1.tgz#c0d5a63b2718800ad8e1eb0fa5269c84dd41845e"
   integrity sha1-wNWmOycYgArY4esPpSachN1BhF4=
 
-punycode@^2.1.0:
+punycode@^2.1.0, punycode@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
@@ -2369,7 +2413,7 @@ source-map@^0.5.6:
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.5.7.tgz#8a039d2d1021d22d1ea14c80d8ea468ba2ef3fcc"
   integrity sha1-igOdLRAh0i0eoUyA2OpGi6LvP8w=
 
-source-map@^0.6.0, source-map@~0.6.1:
+source-map@^0.6.0, source-map@^0.6.1, source-map@~0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/source-map/-/source-map-0.6.1.tgz#74722af32e9614e9c287a8d0bbde48b5e2f1a263"
   integrity sha512-UjgapumWlbMhkBgzT7Ykc5YXUT46F0iKu8SGXq0bcwP5dz/h0Plj6enJqjz1Zbq2l5WaqYnrVbwWOWMyF3F47g==
@@ -2542,19 +2586,35 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
-"svelte-preprocess@https://github.com/hantrongbinh/svelte-preprocess":
-  version "2.12.0"
-  resolved "https://github.com/hantrongbinh/svelte-preprocess#0d4f21d199b3bba83a6d0dcfaba5ffba9edbb9bf"
+svelte-preprocess-md@^0.1.3:
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess-md/-/svelte-preprocess-md-0.1.3.tgz#566b6749f9f786f8fa3d3f027ef929a7ba3486a0"
+  integrity sha512-TtGKzVt1J6fRN14pmOCl8qxRHnuRtYwcAb5vaQZfP8p6lUfssKT5C5Bd01yamXQ9kBIpOVZ9yf5qmi4A6fIxjw==
+  dependencies:
+    markdown-it "^8.4.2"
+
+svelte-preprocess@^2.14.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-2.14.0.tgz#1212f98535dd3b032f46785caf33a0e6a361928f"
+  integrity sha512-VETZPGaXf7MdKDhQ4yKZDVoaGiOk98SU7FuqEMDJi4f3Uwthb2ncijc+jEvkQ8z87IE0s5Bdq6N8LWWV7gLS/w==
   dependencies:
     postcss-load-config "^2.0.0"
     strip-indent "^2.0.0"
 
-svelte-routing@^1.2.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/svelte-routing/-/svelte-routing-1.2.0.tgz#6af0b67f458ed34cd00ad3f8f8a4ab03ae9b949b"
-  integrity sha512-bOWejHnBor46uvQAz6u3HpN+EXNnNvQFY8Qja4aIbg+BVN0QmrdkCyR35/KVf1Mq/Jjp9juRZfiYcble+TErGg==
+svelte-router-spa@^2.0.3:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/svelte-router-spa/-/svelte-router-spa-2.0.3.tgz#e373ae7cea3b50457ea8ccf503ddf6cd804e9c4e"
+  integrity sha512-afYTWGDctAxs+K/Wd2k+wlLxCmw8Y8cHhITTktMzeBKHyj8HlUl6in9SX249a6yYhn4nttbztwZm1RbsM6Psng==
+  dependencies:
+    svelte "3.5.1"
+    url-params-parser "^1.0.1"
 
-svelte@^3.0.0:
+svelte-routing@^1.2.1:
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/svelte-routing/-/svelte-routing-1.2.1.tgz#7dd1b1847df6a6bd674e3c4b84588e1ce5c189c5"
+  integrity sha512-2lm1EwCy8bXiShW9A6sH38oqbQ8q3sqK7mgXMVTRkGSrTdwnkDHyXVwCKIcCJdWdVcNdjQUFHXbDlaoxQHdd2g==
+
+svelte@3.5.1, svelte@^3.0.0:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.5.1.tgz#fa6cc030a98df4af05e7a325c8b4537d21257c2d"
   integrity sha512-iMnuyteFGQ8Yl68G/DHTHY1sLwoAMya1eS0ZOHIm/dqn2etR8WEe8hUAoluLryde4Cft4gvMhtHV3NhE60nBmQ==
@@ -2652,6 +2712,11 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
+uc.micro@^1.0.1, uc.micro@^1.0.5:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.6.tgz#9c411a802a409a91fc6cf74081baba34b24499ac"
+  integrity sha512-8Y75pvTYkLJW2hWQHXxoqRgV7qb9B+9vFEtidML+7koHUFapnVJAZ6cKs+Qjz5Aw3aZWHMC6u0wJE3At+nSGwA==
+
 ultron@1.0.x:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.0.2.tgz#ace116ab557cd197386a4e88f4685378c8b2e4fa"
@@ -2691,6 +2756,11 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
+
+url-params-parser@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/url-params-parser/-/url-params-parser-1.0.1.tgz#0cf144f60a6ad51710fa21e30239025111991e96"
+  integrity sha512-S2IaWGBTKqVktOada1jt9K2zCDKfCE5YST5eWMnk/1tSHn0aRRFN6w+xKoWfy/seiEkz7udWpQJdemckJiIvwg==
 
 use@^3.1.0:
   version "3.1.1"

@@ -1,18 +1,32 @@
-<style>
+<style lang="scss">
   section {
     display: flex;
     justify-content: space-between;
-    height: 600px;
+    height: 800px;
     align-items: center;
+    padding: 0 200px;
   }
 
   .left {
-    width: 40%;
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__img {
+      width: 100%;
+      display: block;
+      display: flex;
+      justify-content: center;
+
+      img {
+        height: 100%;
+      }
+    }
   }
 
   .right {
     width: 40%;
-    text-align: left;
   }
 
   p {
@@ -22,20 +36,22 @@
 </style>
 
 <section>
-  <div class="left" />
+  <div class="left">
+    <div class="left__img">
+      <img src="/images/EA.svg" />
+    </div>
+  </div>
   <div class="right">
     <h1>Không chỉ là EA</h1>
     <p>
-      Khác với những EA khác đang được sử dụng trên thị trường, kazan không tập
-      trung vào phương pháp nào mà chỉ tập trung vào quản trị vốn và tâm lý.
+      Khác với phần nhiều các EA trên thị trường được tạo lập nhằm hướng đến mục
+      đích xây dựng một hệ thống tự động (hoặc bán tự động) với một phương pháp
+      giao dịch nào đó.
     </p>
     <p>
-      Với niềm tin răng con người sẽ làm tốt hơn máy móc trong việc phân tích,
-      nhận định thị trường.
+      Sứ mệnh Kaizan được tạo lập: Chỉ tập trung Duy nhất vào Quản trị Vốn & Tâm
+      lí – 02 yếu tố chiếm đến 90% sự thành công trong giao dịch.
     </p>
-    <p>
-      Điều này cũng khiến Kazan có thể tương thích với gần như toàn bộ các
-      phương pháp mà trader đang sử dụng
-    </p>
+
   </div>
 </section>

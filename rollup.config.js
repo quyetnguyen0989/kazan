@@ -3,7 +3,8 @@ import resolve from "rollup-plugin-node-resolve";
 import commonjs from "rollup-plugin-commonjs";
 import livereload from "rollup-plugin-livereload";
 import { terser } from "rollup-plugin-terser";
-const { scss, globalStyle } = require("../svelte-preprocess");
+import { scss, globalStyle } from "svelte-preprocess";
+import { mdsvex } from "mdsvex";
 import alias from "rollup-plugin-alias";
 
 const aliases = {
@@ -28,9 +29,13 @@ export default {
       dev: !production,
       // we'll extract any component CSS out into
       // a separate file — better for performance
+      extensions: [".svelte", ".svx"], // here actually
       preprocess: [
         scss({ data: `@import "src/styles/settings/_colors.scss";` }),
-        globalStyle()
+        globalStyle(),
+        mdsvex({
+          extension: ".svx" // the default is '.svexy', if you lack taste, you might want to change it
+        })
       ],
       // preprocess: autoProcess(),
       css: css => {

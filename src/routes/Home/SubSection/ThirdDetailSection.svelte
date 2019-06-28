@@ -2,8 +2,9 @@
   section {
     display: flex;
     justify-content: space-between;
-    height: 600px;
+    height: 800px;
     align-items: center;
+    padding: 0 200px;
   }
 
   .left {
@@ -22,22 +23,26 @@
 </style>
 
 <section>
-  <div class="left" />
+  <div class="left">
+    <div class="left__img">
+      <img src="images/body-img-kaizen.svg" />
+    </div>
+  </div>
   <div class="right">
     <h1>Kazan-Kaizen</h1>
-    <p>Cải tiến nhỏ để cho thành công lớn.</p>
     <p>
-      Chúng tôi tin răng việc thành công được là việc tuân thủ, nhất quán và
-      bước đi từng bước một.
+      Chúng tôi tin rằng, thành công nói chung và Thành công trong Trading nói
+      riêng đến từ sự tuân thủ, nhất quán và bước đi từng bước một.
     </p>
     <p>
-      Thành công của trader không phải ở 1 hay 2 lệnh, cũng không phải ở việc
-      một ngày nào đó có thể tìm ra chén thánh.
+      Một Trader thành công không phải Win ở 1 hoặc 2 lệnh hay là họ có Chén
+      thánh vì chúng không có thật. Mà đến từ sự thay đổi, cải tiến từng bước
+      một trong Tư duy đầu tư – Quản trị vốn & Phương pháp.
     </p>
-    <p>Nó tập trung ở việc hành động đều đặt một cách nhất quán.</p>
     <p>
-      Và kazan sẽ là một công cụ đồng hành, một người thư ký đi cùng và nhắc nhở
-      để giúp trader bước đi những bước nhỏ này.
+      Bên cạnh là một Người Vợ tốt Kazan còn là một Thư ký công tâm: Luôn đồng
+      hành và nhắc nhở Trader liên tục dù ở bước nhỏ nhất để tốt hơn mỗi ngày và
+      hướng đến sự thành công.
     </p>
 
     <button class="button button--primary button--section">

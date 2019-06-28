@@ -1,0 +1,9 @@
+# Không gọi được tới server kazan.
+
+Để kazan có thể gọi ra bên ngoài cho tính năng tương tác và alert, bạn cần cho phép việc này.
+
+Chọn "Tool" ==> "Option" ==> "Expert Adviser" ==> Chọn allow webrequest và add những links sau:
+
+![Allow web request](https://i.imgur.com/M8qafR5.png)
+
+http://api.kazantrading.com

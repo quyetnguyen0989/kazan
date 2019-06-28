@@ -1,0 +1,12 @@
+# Không tìm thấy group.
+
+Khi tham gia vào 1 group, bạn sẽ có 2 khái niệm với group này.
+
+- Group name: Tên của group mà người tạo ra group đã đặt.
+- Group alias: Tên rút gọn của group mà bạn đã tạo để dễ nhớ hơn cho bạn.
+
+Khi gọi tới server kazan bạn hãy sử dụng group alias.
+
+**Note:**
+
+- Mặc định khi khởi tạo, group alias sẽ trùng với group name

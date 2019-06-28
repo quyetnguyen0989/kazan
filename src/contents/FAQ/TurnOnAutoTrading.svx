@@ -1,0 +1,25 @@
+# Lỗi không bật được auto trading
+
+Để có thể vào lệnh qua kazan bạn cần bật chế độ autotrading( xuất hiện biểu tượng mặt cười)
+
+![Allow trade](https://i.imgur.com/GNTFQ87.png)
+
+Để bật chế độ automated trading bạn cần bật ở 2 nơi.
+
+### 1. Bật ở auto trade cho MT4.
+
+Nhấn vào biểu tượng automated trading như ở hình bên dưới. khi icon chuyển qua mầu xanh là đã hoàn thành
+
+![ảnh 1](https://i.imgur.com/T8e54gy.png)
+
+### 2. Bật cho từng EA.
+
+Thông thường khi bạn add EA vào ở chế độ đang bật auto trade cho MT4, EA này sẽ tự động cho phép việc auto trade và ko cần chỉnh lại ở đây
+
+Để bật auto trade cho EA bạn cần vào phần config cho EA này bằng cách click chuột phải chọn "Expert Adviser" hoặc sử dụng phím tắt F7 như ảnh bên dưới:
+
+![ảnh 2](https://i.imgur.com/eAGLBeG.png)
+
+Chuyển qua tab common chọn "allow live trading" và nhấn ok
+
+![ảnh 3](https://i.imgur.com/Kl3Kb70.png)
