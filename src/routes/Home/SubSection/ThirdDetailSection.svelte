@@ -1,10 +1,11 @@
-<style>
+<style lang="scss">
   section {
     display: flex;
     justify-content: space-between;
-    height: 800px;
+    height: $subSectionHeight;
     align-items: center;
-    padding: 0 200px;
+    max-width: $maxWidth;
+    margin: 0 auto;
   }
 
   .left {

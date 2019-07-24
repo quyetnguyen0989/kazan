@@ -5,6 +5,8 @@
 <style lang="scss">
   section {
     padding: 100px 150px;
+    max-width: $maxWidth + 100px;
+    margin: 0 auto;
   }
 
   h1 {
@@ -13,8 +15,8 @@
   }
 </style>
 
-<section>
-  <div class="about-us">
+<section id="about">
+  <div>
     <AboutUs />
   </div>
 </section>

@@ -7,7 +7,7 @@
 
 <style lang="scss">
   .sub-sections {
-    padding: 0 0;
+    padding: 0 200px;
   }
   hr {
     border: 0.5px solid $aquamarineBlue;
@@ -19,7 +19,7 @@
   <MissionSection />
   <hr />
 
-  <FirstDetailSection />
+  <!-- <FirstDetailSection /> -->
   <SecondDetailSection />
   <ThirdDetailSection />
   <hr />

@@ -23,6 +23,11 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-0.5.0.tgz#b21510597fd601e5d7c95008b76bf0d254ebfd31"
   integrity sha512-oZLYFEAzUKyi3SKnXvj32ZCEGH6RDnao7COuCVhDydMS9NrCSVXhM79VaKyP5+Zc33m0QXEd2DN3UkU7OsHcfw==
 
+"@sveltejs/svelte-scroller@^2.0.3":
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/@sveltejs/svelte-scroller/-/svelte-scroller-2.0.3.tgz#d2696f95f0c0a297b23cdf45594aa19e62c3d295"
+  integrity sha512-VsJ42++lRSU9Xx35W6lMrOOrxUW82RXBB0eZtX97TKq9NVT91tf2jMIwWt777vd7PQjRnESWDpOYtL3QySiHVQ==
+
 "@types/estree@0.0.39":
   version "0.0.39"
   resolved "https://registry.yarnpkg.com/@types/estree/-/estree-0.0.39.tgz#e177e699ee1b8c22d23174caaa7422644389509f"
@@ -1018,6 +1023,18 @@ ini@~1.3.0:
   resolved "https://registry.yarnpkg.com/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha512-RZY5huIKCMRWDUqZlEi72f/lmXKMvuszcMBduliQ3nnWbx9X/ZBQO7DijMEYS9EhHBb2qacRUMtC7svLwe0lcw==
 
+intl-messageformat-parser@^1.8.1:
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/intl-messageformat-parser/-/intl-messageformat-parser-1.8.1.tgz#0eb14c5618333be4c95c409457b66c8c33ddcc01"
+  integrity sha512-IMSCKVf0USrM/959vj3xac7s8f87sc+80Y/ipBzdKy4ifBv5Gsj2tZ41EAaURVg01QU71fYr77uA8Meh6kELbg==
+
+intl-messageformat@^4.0.1:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/intl-messageformat/-/intl-messageformat-4.4.0.tgz#aa196a4d04b573f4090bc417f982d81de4f74fad"
+  integrity sha512-z+Bj2rS3LZSYU4+sNitdHrwnBhr0wO80ZJSW8EzKDBowwUe3Q/UsvgCGjrwa+HPzoGCLEb9HAjfJgo4j2Sac8w==
+  dependencies:
+    intl-messageformat-parser "^1.8.1"
+
 invert-kv@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/invert-kv/-/invert-kv-1.0.0.tgz#104a8e4aaca6d3d8cd157a8ef8bfab2d7a3ffdb6"
@@ -1466,6 +1483,11 @@ merge-stream@^1.0.1:
   dependencies:
     readable-stream "^2.0.1"
 
+micro-memoize@^4.0.7:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/micro-memoize/-/micro-memoize-4.0.8.tgz#b2bd9fb57817fe5dc1eb1010b37b3f7695aef9a8"
+  integrity sha512-Mzlo15iWNrP5EwokGjx0Wlh2b3aMjTPdpsD+ryQtkYJBD67IxBddWU2fO3MIXRtXDH8NsuhaotTrtDbfb+k6jw==
+
 micromatch@^3.1.10, micromatch@^3.1.4:
   version "3.1.10"
   resolved "https://registry.yarnpkg.com/micromatch/-/micromatch-3.1.10.tgz#70859bc95c9840952f359a068a3fc49f9ecfac23"
@@ -1760,6 +1782,11 @@ object-keys@^1.0.12:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/object-keys/-/object-keys-1.1.1.tgz#1c47f272df277f3b1daf061677d9c82e2322c60e"
   integrity sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==
+
+object-resolve-path@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/object-resolve-path/-/object-resolve-path-1.1.1.tgz#a7f8f93e8a20af80e44217ba7db54316d9d12232"
+  integrity sha1-p/j5Poogr4DkQhe6fbVDFtnRIjI=
 
 object-visit@^1.0.0:
   version "1.0.1"
@@ -2586,6 +2613,15 @@ supports-color@^6.1.0:
   dependencies:
     has-flag "^3.0.0"
 
+svelte-i18n@^1.1.2-beta:
+  version "1.1.2-beta"
+  resolved "https://registry.yarnpkg.com/svelte-i18n/-/svelte-i18n-1.1.2-beta.tgz#f4c22aaee22022351cc26ffdd628b89680218e3c"
+  integrity sha512-OgjRHgLmx30q1xrXRb63a94xogvrXTUu/D2pwcSPXsg9NqFy/VX9sWoy8c3VgH72hDWpSAoBTCE7npSMC7acUA==
+  dependencies:
+    intl-messageformat "^4.0.1"
+    micro-memoize "^4.0.7"
+    object-resolve-path "^1.1.1"
+
 svelte-preprocess-md@^0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/svelte-preprocess-md/-/svelte-preprocess-md-0.1.3.tgz#566b6749f9f786f8fa3d3f027ef929a7ba3486a0"
@@ -2593,31 +2629,35 @@ svelte-preprocess-md@^0.1.3:
   dependencies:
     markdown-it "^8.4.2"
 
-svelte-preprocess@^2.14.0:
-  version "2.14.0"
-  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-2.14.0.tgz#1212f98535dd3b032f46785caf33a0e6a361928f"
-  integrity sha512-VETZPGaXf7MdKDhQ4yKZDVoaGiOk98SU7FuqEMDJi4f3Uwthb2ncijc+jEvkQ8z87IE0s5Bdq6N8LWWV7gLS/w==
+svelte-preprocess@^2.14.4:
+  version "2.14.4"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-2.14.4.tgz#8acafce8e5bb1131fad3b70243dcfdf2448ab831"
+  integrity sha512-X5ljU8HASsUVeXeLcpRLP9pJaN6dQO+dzhfareLk5Xs2go7p6AoWOnKzgPSUdtXLytp9locqRfu1IGgDPt+m5w==
   dependencies:
     postcss-load-config "^2.0.0"
     strip-indent "^2.0.0"
-
-svelte-router-spa@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/svelte-router-spa/-/svelte-router-spa-2.0.3.tgz#e373ae7cea3b50457ea8ccf503ddf6cd804e9c4e"
-  integrity sha512-afYTWGDctAxs+K/Wd2k+wlLxCmw8Y8cHhITTktMzeBKHyj8HlUl6in9SX249a6yYhn4nttbztwZm1RbsM6Psng==
-  dependencies:
-    svelte "3.5.1"
-    url-params-parser "^1.0.1"
 
 svelte-routing@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/svelte-routing/-/svelte-routing-1.2.1.tgz#7dd1b1847df6a6bd674e3c4b84588e1ce5c189c5"
   integrity sha512-2lm1EwCy8bXiShW9A6sH38oqbQ8q3sqK7mgXMVTRkGSrTdwnkDHyXVwCKIcCJdWdVcNdjQUFHXbDlaoxQHdd2g==
 
-svelte@3.5.1, svelte@^3.0.0:
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.5.1.tgz#fa6cc030a98df4af05e7a325c8b4537d21257c2d"
-  integrity sha512-iMnuyteFGQ8Yl68G/DHTHY1sLwoAMya1eS0ZOHIm/dqn2etR8WEe8hUAoluLryde4Cft4gvMhtHV3NhE60nBmQ==
+svelte-scrollto@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/svelte-scrollto/-/svelte-scrollto-0.1.1.tgz#0208ab8d5033d6d9cd9d8bd83649a09428421d0a"
+  integrity sha512-MR3DC3eqODQdoK27SCJrl2UamiaGhAZabeDy5JUToJPWYzkXLy00gxrhgu9mcCySQo9ejpE9uNq1AYjZJnotNg==
+  dependencies:
+    svelte "3.x"
+
+svelte@3.x:
+  version "3.6.8"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.8.tgz#20c8f580f70dbdd9b1df618e33fa1d7e63c499b9"
+  integrity sha512-rRgWC/a+QUpAG7N9Y3RNkSUZ2/26+865L5GC/z6GYW54kikXhj2eoG1o9FNuUZX5eLOmdZVV33ytQ++3aBN3pQ==
+
+svelte@^3.6.7:
+  version "3.6.7"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.6.7.tgz#20e814b79aac4009d4bc1ecf0c9287a6bf7e96fb"
+  integrity sha512-9HzhPxWNLi+ZBhxL3HJ8jwwu+u+XfHtVF3uEJ2m8/JOdnaTC9D2qiEwOncgI7z/pN+VumgKQtZoHtvYCW6fHqg==
 
 tar@^2.0.0:
   version "2.2.2"
@@ -2756,11 +2796,6 @@ urix@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/urix/-/urix-0.1.0.tgz#da937f7a62e21fec1fd18d49b35c2935067a6c72"
   integrity sha1-2pN/emLiH+wf0Y1Js1wpNQZ6bHI=
-
-url-params-parser@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/url-params-parser/-/url-params-parser-1.0.1.tgz#0cf144f60a6ad51710fa21e30239025111991e96"
-  integrity sha512-S2IaWGBTKqVktOada1jt9K2zCDKfCE5YST5eWMnk/1tSHn0aRRFN6w+xKoWfy/seiEkz7udWpQJdemckJiIvwg==
 
 use@^3.1.0:
   version "3.1.1"

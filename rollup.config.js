@@ -31,7 +31,12 @@ export default {
       // a separate file — better for performance
       extensions: [".svelte", ".svx"], // here actually
       preprocess: [
-        scss({ data: `@import "src/styles/settings/_colors.scss";` }),
+        scss({
+          data: `
+            @import "src/styles/settings/_colors.scss";
+            @import "src/styles/settings/_variables.scss";
+          `
+        }),
         globalStyle(),
         mdsvex({
           extension: ".svx" // the default is '.svexy', if you lack taste, you might want to change it

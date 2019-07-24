@@ -5,13 +5,21 @@
 <style lang="scss">
   section {
     background: #f7fbfe;
-    padding: 120px 180px;
+    width: 100%;
+  }
+
+  .wrapper {
+    max-width: $maxWidth;
+    padding: 120px 120px;
+    margin: 0 auto;
   }
 
   .quotes {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px 40px;
+    // max-width: $maxWidth;
+    // margin: 0 auto;
   }
 
   .quote {
@@ -80,37 +88,39 @@
 </style>
 
 <section>
-  <h1>Trader nói gì về chúng tôi</h1>
-  <div class="quotes">
-    <div class="quote">
-      <blockquote>
-        Tôi rất thích con Kazan. Nó giúp tôi tiết kiệm thời gian và tránh sai
-        sót khi đặt lệnh. Sử dụng và quản lý vốn dễ dàng. Kazan có tính năng
-        cảnh báo những tin tức quan trọng trong ngày giúp tôi tiết kiệm thời
-        gian trong trading.
-      </blockquote>
-      <div class="quote__customer">
-        <img src="/testimonials/TrangPham.jpg" />
-        <div class="title">
-          <b>Trang Pham</b>
-          <span>Trader, Nội trợ</span>
+  <div class="wrapper">
+    <h1>Trader nói gì về chúng tôi</h1>
+    <div class="quotes">
+      <div class="quote">
+        <blockquote>
+          Tôi rất thích con Kazan. Nó giúp tôi tiết kiệm thời gian và tránh sai
+          sót khi đặt lệnh. Sử dụng và quản lý vốn dễ dàng. Kazan có tính năng
+          cảnh báo những tin tức quan trọng trong ngày giúp tôi tiết kiệm thời
+          gian trong trading.
+        </blockquote>
+        <div class="quote__customer">
+          <img src="/testimonials/TrangPham.jpg" />
+          <div class="title">
+            <b>Trang Pham</b>
+            <span>Trader, Nội trợ</span>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="quote">
-      <blockquote>
-        Hiện nay tôi và đội nhóm của mình đang sử dụng Kazan. Kazan rất thuận
-        tiện trong việc trao đổi với các thành viên khác. Trước đây chúng tôi
-        phải share ảnh lên group và khi muốn sửa hoặc góp ý gì về phân tích,
-        chúng tôi phải vẽ lại hoặc sử dụng phần mềm sửa ảnh. Nhưng với kazan
-        chúng tôi chỉ cần "PUSH" và "GET". Đây là phần mềm rất tiện dụng cho
-        việc trading.
-      </blockquote>
-      <div class="quote__customer">
-        <img src="/testimonials/HuyDo.jpg" />
-        <div class="title">
-          <b>Huy Do</b>
-          <span>Trader, Chuyên viên Oracle</span>
+      <div class="quote">
+        <blockquote>
+          Hiện nay tôi và đội nhóm của mình đang sử dụng Kazan. Kazan rất thuận
+          tiện trong việc trao đổi với các thành viên khác. Trước đây chúng tôi
+          phải share ảnh lên group và khi muốn sửa hoặc góp ý gì về phân tích,
+          chúng tôi phải vẽ lại hoặc sử dụng phần mềm sửa ảnh. Nhưng với kazan
+          chúng tôi chỉ cần "PUSH" và "GET". Đây là phần mềm rất tiện dụng cho
+          việc trading.
+        </blockquote>
+        <div class="quote__customer">
+          <img src="/testimonials/HuyDo.jpg" />
+          <div class="title">
+            <b>Huy Do</b>
+            <span>Trader, Chuyên viên Oracle</span>
+          </div>
         </div>
       </div>
     </div>

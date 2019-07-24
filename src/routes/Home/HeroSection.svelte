@@ -4,6 +4,7 @@
     padding: 50px 150px;
     display: flex;
     justify-content: space-between;
+    max-width: $maxWidth;
   }
 
   .left {
@@ -16,6 +17,7 @@
 
     h1 {
       color: $curciousBlue;
+      padding-right: 20px;
     }
 
     p {
@@ -44,7 +46,6 @@
     &__img {
       width: 100%;
       display: block;
-      display: flex;
       justify-content: center;
 
       img {
@@ -56,15 +57,15 @@
 
 <section>
   <div class="left">
-    <h1>Sử dụng Kazan theo cách của bạn</h1>
+    <h1>Kaizan không đơn thuần là EA</h1>
     <p>
-      - Hơn 80 tính năng(chia làm 3 nhóm chính)
+      Khác với phần nhiều các EA trên thị trường được tạo lập nhằm hướng đến mục
+      đích xây dựng một hệ thống tự động (hoặc bán tự động) với một phương pháp
+      giao dịch nào đó.
       <br />
-      - 46 phím tương tác và hiển thị
+      Sứ mệnh Kaizan được tạo lập: Chỉ tập trung Duy nhất vào Quản trị Vốn & Tâm
+      lí – 02 yếu tố chiếm đến 90% sự thành công trong giao dịch.
       <br />
-      - 11 phím tắt
-      <br />
-      - 71 tùy chọn setup ban đầu
     </p>
 
     <div class="left__button">

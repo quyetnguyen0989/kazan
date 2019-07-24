@@ -8,6 +8,8 @@
     padding: 20px 80px 20px;
     display: flex;
     justify-content: space-between;
+    border-top: 2px solid $aquamarineBlue;
+    margin-top: 100px;
   }
 
   .left {

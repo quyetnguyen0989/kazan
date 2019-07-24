@@ -1,6 +1,6 @@
 <script>
   import { onMount } from "svelte";
-  import { links, Link } from "svelte-routing";
+  import { links, Link } from "../svelte-routing/index";
   const menus = [
     {
       text: "Hướng dẫn sử dụng",
@@ -98,7 +98,7 @@
         <Link
           to={menu.hasOwnProperty('redirect') ? menu.redirect : menu.link}
           getProps={({ isCurrent, href }) => isCurrent && onChangeRoute(href)}>
-           {menu.text}
+          {menu.text}
         </Link>
       </div>
       {#if menu.hasOwnProperty('childrens') && currentRoute.includes(menu.link)}
@@ -110,7 +110,7 @@
               <Link
                 to={`${menu.link}/${child.link}`}
                 getProps={({ isCurrent, href }) => isCurrent && onChangeRoute(href)}>
-                 {child.text}
+                {child.text}
               </Link>
             </li>
           {/each}

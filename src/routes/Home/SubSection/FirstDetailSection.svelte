@@ -2,9 +2,8 @@
   section {
     display: flex;
     justify-content: space-between;
-    height: 800px;
+    height: $subSectionHeight;
     align-items: center;
-    padding: 0 200px;
   }
 
   .left {
@@ -16,7 +15,6 @@
     &__img {
       width: 100%;
       display: block;
-      display: flex;
       justify-content: center;
 
       img {

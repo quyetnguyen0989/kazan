@@ -1,6 +1,6 @@
 <script>
   import UserGuideAside from "@/components/UserGuideAside.svelte";
-  import { Router, Route } from "svelte-routing";
+  import { Router, Route } from "@/svelte-routing/index";
   import {
     DownloadAndInstall,
     AddKazanToMT4,
@@ -16,6 +16,10 @@
 </script>
 
 <style lang="scss">
+  header {
+    background: url("images/framehead.png") center/cover no-repeat;
+    height: 400px;
+  }
   main {
     padding-top: 74px;
   }
@@ -50,6 +54,7 @@
 </style>
 
 <Router>
+  <header />
   <div style="display: flex">
     <UserGuideAside />
     <main>

@@ -1,6 +1,6 @@
 <style lang="scss">
   section {
-    height: 800px;
+    // height: 800px;
     background-image: radial-gradient(
       circle,
       #1a6fa3,
@@ -9,7 +9,8 @@
       #2b4867,
       #293c54
     );
-    padding: 100px 150px;
+    padding: 100px 150px 150px;
+    width: 100%;
   }
 
   h1 {
@@ -18,6 +19,9 @@
   }
 
   .roadmap {
+    margin: 0 auto;
+    max-width: $maxWidth - 200px;
+
     margin-top: 100px;
     img {
       width: 100%;

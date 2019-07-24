@@ -1,22 +1,22 @@
 <script>
+  import { onMount } from "svelte";
+  import { _ as t } from "svelte-i18n";
+
   const missions = [
     {
-      img: "trading-psychology.svg",
-      title: "Protect balance",
-      description:
-        "Eu lobortis elementum nibh tellus molestie nunc non blandit massa enim nec dui nunc mattis."
+      img: "protect-balance.svg",
+      title: $t("protectBalance"),
+      description: $t("protectBalanceDesc")
     },
     {
       img: "money-manager.svg",
-      title: "Money manager",
-      description:
-        "Turpis cursus in hac habitasse platea dictumst quisque sagittis purus sit amet volutpat consequat mauris"
+      title: $t("moneyManager"),
+      description: $t("moneyManagerDesc")
     },
     {
-      img: "protect-balance.svg",
-      title: "Trading psychology",
-      description:
-        "Quis commodo odio aenean sed adipiscing diam donec adipiscing tristique risus nec feugiat in"
+      img: "trading-psychology.svg",
+      title: $t("tradingPsycho"),
+      description: $t("tradingPsychoDesc")
     }
   ];
 </script>
@@ -24,7 +24,8 @@
 <style lang="scss">
   section {
     text-align: center;
-    padding: 50px 200px;
+    max-width: $maxWidth;
+    margin: 0 auto;
   }
 
   h1 {
@@ -33,16 +34,18 @@
     margin-bottom: 100px;
   }
 
-  .missions {
+  .flex-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+  }
+
+  .flex-item {
+    width: 33.3%;
+    padding: 20px;
+    flex: 1 0 auto;
   }
 
   .mission {
     position: relative;
-    height: 100%;
-    width: 30%;
     border: 1px solid #fff;
     border-radius: 10px;
     box-shadow: 0 9px 47px -2px rgba(85, 149, 240, 0.31);
@@ -50,7 +53,8 @@
     flex-direction: column;
     align-items: center;
     background-color: #fff;
-    padding: 40px 40px 40px;
+    padding: 30px 30px 30px;
+    height: 100%;
 
     &__image {
       padding-bottom: 10px;
@@ -81,18 +85,20 @@
   }
 </style>
 
-<section>
+<section id="why">
   <h1>Sứ mệnh Kazan</h1>
 
-  <div class="missions">
+  <div class="flex-container">
     {#each missions as mission}
-      <div class="mission">
-        <div class="mission__image">
-          <img src={`/images/${mission.img}`} />
-        </div>
-        <div class="mission__content">
-          <h3> {mission.title} </h3>
-          <span>{mission.description}</span>
+      <div class="flex-item">
+        <div class="mission">
+          <div class="mission__image">
+            <img src={`/images/${mission.img}`} />
+          </div>
+          <div class="mission__content">
+            <h3>{mission.title}</h3>
+            <span>{mission.description}</span>
+          </div>
         </div>
       </div>
     {/each}

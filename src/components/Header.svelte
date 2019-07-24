@@ -1,5 +1,21 @@
 <script>
-  import { link, Link } from "svelte-routing";
+  import { scrollto } from "svelte-scrollto";
+  import { link, Link } from "../svelte-routing/index";
+  import { _ as t } from "svelte-i18n";
+
+  export let currentRoute = "/";
+  let activeRoute = "/";
+  let whiteHeader = false;
+
+  $: activeRoute = currentRoute
+    ? currentRoute.params["*"]
+      ? currentRoute.params["*"]
+      : "/"
+    : "/";
+
+  $: whiteHeader = ["faq", "user-guide", "privacy-policy", "term-of-use"].some(
+    route => activeRoute.includes(route)
+  );
 </script>
 
 <style lang="scss">
@@ -15,6 +31,14 @@
     padding: 0 48px;
     background: transparent;
     z-index: 1000;
+
+    &.white {
+      color: $white;
+      a,
+      a:visited {
+        color: $white !important;
+      }
+    }
   }
   .left {
     display: flex;
@@ -54,6 +78,10 @@
       margin: 2px 0 0 0;
       padding-left: 0;
 
+      &.guide a {
+        color: $white;
+      }
+
       li {
         display: inline-block;
         font-size: 12px;
@@ -92,7 +120,7 @@
   }
 </style>
 
-<header>
+<header class={whiteHeader ? 'white' : ''}>
   <div class="left">
     <Link to="/">
       <div class="logo">
@@ -104,10 +132,10 @@
     <nav>
       <ul class="nav-links">
         <li>
-          <a>Why Kazan?</a>
+          <a href="#" use:scrollto={'#why'}>Why Kazan?</a>
         </li>
         <li>
-          <a>About Us</a>
+          <a href="#" use:scrollto={'#about'}>About Us</a>
         </li>
         <li>
           <a href="user-guide/download-and-install" use:link>User Guide</a>
@@ -118,9 +146,8 @@
   <div class="right">
     <div class="user">
       <a href="https://portal.kazantrading.com " class="button button--nav">
-        Login
+        {$t('login')}
       </a>
-      <a>Register</a>
     </div>
   </div>
 </header>

@@ -12,6 +12,9 @@
     background-position: top right;
     background-size: 50%;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 </style>
 
